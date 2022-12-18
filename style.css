@@ -1,0 +1,436 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Roboto:wght@400;500&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+header {
+  height: 10vh;
+}
+.container {
+  width: 84%;
+  margin: 0 auto;
+}
+header .container {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .container div + a > img {
+  width: 30px;
+}
+header .container div + a {
+  display: none;
+}
+header a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height, or 120% */
+
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+}
+header .container img + div {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+
+header .container div + div {
+  width: 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (max-width: 576px) {
+  header .container img + div,
+  header .container div + div {
+    display: none;
+  }
+  header .container div + a {
+    display: block;
+  }
+  .container {
+    width: 90%;
+  }
+}
+main {
+  height: 90vh;
+  padding: 50px 55px;
+}
+main img {
+  width: 100%;
+  height: 100%;
+}
+@media (max-width: 576px) {
+  main {
+    height: fit-content;
+    padding: 30px 15px;
+  }
+}
+.top {
+  display: flex;
+  justify-content: space-around;
+}
+.top h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  /* or 121% */
+  width: 30%;
+
+  color: #1a1a1a;
+}
+.top p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px;
+  /* or 167% */
+  width: 35%;
+
+  color: #aaaaaa;
+}
+.bottom {
+  margin-top: 210px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.bottom div {
+  width: 49%;
+  margin-bottom: 32px;
+}
+.bottom div p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #1a1a1a;
+}
+.bottom div img {
+  width: 100%;
+}
+@media (max-width: 576px) {
+  .top {
+    flex-direction: column;
+    align-items: center;
+  }
+  .top h1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 48px;
+    color: #1a1a1a;
+    width: 80%;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .top p {
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #aaaaaa;
+    width: 70%;
+  }
+  .bottom {
+    margin-top: 140px;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+  .bottom div {
+    width: 100%;
+  }
+}
+
+.brands {
+  height: 100vh;
+}
+.top-b h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  color: #1a1a1a;
+}
+.top-b p {
+  margin-top: 20px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  color: #4a4a4a;
+}
+.brands .top-b {
+  height: 30%;
+  text-align: center;
+  margin-top: 120px;
+}
+.brands .container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 80%;
+}
+.bottom-b {
+  height: 40%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.brands .container .bottom-b div {
+  height: 33%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.brands div a {
+  width: fit-content;
+}
+
+@media (max-width: 576px) {
+}
+
+.section4 {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.section4 .photo {
+  background-image: url(./images/seqtion4/Rectangle\ section4\ .png);
+}
+.photo {
+  width: 93%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  padding: 0 20px;
+}
+.section4 .photo img {
+  width: 23px;
+  height: 42px;
+}
+.section4 div + img {
+  height: 12px;
+  margin: 10px;
+}
+
+.section5 {
+  height: 100vh;
+  width: 100%;
+  margin: 40px 0;
+}
+.section5 .container {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.section5 a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 12px;
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+  align-self: flex-start;
+  color: #46856e;
+  text-decoration: none;
+}
+.section5 .container h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+
+  color: #1a1a1a;
+}
+.section5 .services {
+  display: flex;
+  height: 50%;
+  justify-content: space-between;
+  align-items: center;
+}
+.section5 .service {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.section5 .service img {
+  width: 162px;
+  height: 121px;
+}
+.section5 .service img {
+  align-self: center;
+}
+.section5 .service h2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  /* identical to box height, or 100% */
+
+  color: #1a1a1a;
+}
+.section5 .service p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #aaaaaa;
+}
+.section6 {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section6 .photo {
+  height: 100%;
+  padding: 5% 13%;
+  background-image: url(./images/seqtion6/seqtion6.jpg);
+  display: flex;
+  flex-direction: column;
+}
+.section6 .item {
+  height: 35%;
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  justify-content: space-around;
+  margin: 10px 0;
+}
+.section6 .item img {
+  width: 130%;
+}
+.section6 .item .logo {
+  width: 40%;
+}
+.section6 .item p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: #ffffff;
+  margin-left: -10px;
+}
+.section6 .photo h2 {
+  margin-top: 20px;
+  align-self: flex-start;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 12px;
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.works {
+  display: flex;
+  height: fit-content;
+  margin: 150px 0;
+}
+.works .container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.works .container .work {
+  display: flex;
+  height: fit-content;
+  margin: 30px 0;
+}
+.work .img {
+  width: 55%;
+}
+.work .img img {
+  width: 100%;
+}
+
+.works .container h1 {
+  width: 70%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 52px;
+  color: #aaaaaa;
+}
+
+.works .container > p {
+  width: 70%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 52px;
+  color: #000000;
+  margin: 25px 0 100px 0;
+}
+
+.work div > p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #aaaaaa;
+}
+
+.work .img + div {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 8%;
+}
+.work .img + div > h2 {
+  width: 50%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 36px;
+  /* identical to box height, or 112% */
+
+  color: #1a1a1a;
+}
+.work .img + div > p {
+  width: 60%;
+  margin-top: 15px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  color: #aaaaaa;
+}
+#reversed {
+  flex-direction: row-reverse;
+}
