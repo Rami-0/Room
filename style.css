@@ -6,6 +6,10 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
+body{
+  display: flex;
+  flex-direction: column;
+}
 header {
   height: 10vh;
 }
@@ -433,4 +437,96 @@ main img {
 }
 #reversed {
   flex-direction: row-reverse;
+}
+.section7{
+  height: 95vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 150px 0;
+}
+.section7 img{
+  height: 100%;
+  width: 95%;
+}
+
+.section8{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+}
+
+.section8 .container{ 
+  display: flex;
+  height: 70%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #F2F2F2;
+  border-radius: 2px;
+}
+.section8 h1{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 51px;
+  /* identical to box height, or 110% */
+  
+  text-align: center;
+  
+  color: #000000;
+  
+}
+.section8 .items{
+  margin-top: 30px;
+  display: flex;
+  width: 70%;
+  height: 30%;
+  align-items: center;
+  justify-content: space-around ;
+}
+.section8 .item{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+}
+.section8 .item p{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+  
+  text-align: center;
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+  
+  color: #1A1A1A;
+  margin-top: -10px;  
+}
+.section8 button{
+  background: #46856E;
+  border-radius: 2px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 60px;
+  padding: 0 40px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border: none;
+  color: #FFFFFF;
+  margin: 20px 0;  
+}
+.section8 a{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+  
+  
+  color: #AAAAAA;
 }
