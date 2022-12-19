@@ -530,3 +530,15 @@ main img {
   
   color: #AAAAAA;
 }
+
+footer{
+  display: flex;
+  height: 60vh;
+  background: #2B2B2B;
+  box-shadow: 0px 400px 0px #2B2B2B;
+    
+}
+footer .container{
+  display: flex;
+  height: 100%;
+}
