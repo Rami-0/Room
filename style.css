@@ -13,6 +13,7 @@ body {
 }
 header {
   height: 10vh;
+  width: 100%;
 }
 .container {
   width: 84%;
@@ -73,6 +74,7 @@ header .container div + div {
 main {
   height: 90vh;
   padding: 50px 55px;
+  width: 100%;
 }
 main img {
   width: 100%;
@@ -165,6 +167,7 @@ main img {
 
 .brands {
   height: 100vh;
+  width: 100%;
 }
 .top-b h1 {
   font-style: normal;
@@ -364,6 +367,7 @@ main img {
   display: flex;
   height: fit-content;
   margin: 150px 0;
+  width: 100%;
 }
 .works .container {
   display: flex;
@@ -460,6 +464,7 @@ main img {
   align-items: center;
   justify-content: center;
   height: 70vh;
+  width: 100%;
 }
 
 .section8 .container {
@@ -538,6 +543,7 @@ footer {
   display: flex;
   background-color: #1a1a1a;
   height: 60vh;
+  width: 100%;
 }
 footer .container {
   padding-top: 4%;
