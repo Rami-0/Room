@@ -11,6 +11,9 @@ body {
   display: flex;
   flex-direction: column;
 }
+body::-webkit-scrollbar{
+  width: 0px;
+}
 header {
   height: 10vh;
   width: 100%;
